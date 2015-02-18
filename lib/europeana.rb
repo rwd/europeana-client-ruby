@@ -6,7 +6,7 @@ require "active_support/hash_with_indifferent_access"
 
 module Europeana
   API_VERSION = 'v2'
-  URL = "http://www.europeana.eu/api/#{API_VERSION}"
+  URL = "http://green-web.de.a9sapp.eu/api/#{API_VERSION}"
   
   autoload :Errors,   'europeana/errors'
   autoload :Record,   'europeana/record'
